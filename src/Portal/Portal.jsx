@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 
 const Portal = () => {
   return (
-    ReactDOM.createPortal( <Content/> ,document.getElementById('root-modal') )
+    ReactDOM.createPortal( <Content /> ,document.getElementById('root-modal') )
      )
 }
 
